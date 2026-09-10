@@ -59,4 +59,20 @@ Untuk mengganti seluruh dash menjadi underscore pada text, gunakan command  tr "
 
 ### Step 4  
 <img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/step%204.png">  
+Disini kita mengganti kurung tanda menjadi kurung kurawal menggunakan command tr "()" "{}"  
+
+### Step 5 (Final Step)  
+<img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/step%205.png">  
+Kita akan mengenkripsi text menggunakan ROT13 dengan command tr "A-Za-z" "N-ZA--Mn-za-m"  
+setelah menyelesaikan semua step maka kita akan memperoleh sebuah flag yang nantinya akan kita copy dan kita submit pada cylab untuk menyelesaikan challenge ini.  
+<img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/final%20undo.png">  
+
+Refrensi:  
+https://stackoverflow.com/questions/66228621/base64-decode-command-linux-cli-command  
+https://www.tecmint.com/tr-command-examples-in-linux/  
+https://www.geeksforgeeks.org/linux-unix/rev-command-in-linux-with-examples/  
+
+# Pengerjaan Challenge Undo (Kategori Forensic)  
+<img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/Forensic%20challenge.png">  
+Untuk menyelesaikannya kita download file cat.jpg yang akan kita gunakan untuk dianalisis, dan untuk menganalisisnya kita menggunakan tools yang bernama Exiftool yang digunakan untuk mengetahui detail dari foto tersebut. Gunakan command exiftool (nama_file) untuk mulai menganalisis. Setelah itu kita gunakan command echo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" I base64 -d untuk mendecode teks tersebut. setelah didecode maka akan muncul flag dan challenge berhasil diselesaikan.  
 
