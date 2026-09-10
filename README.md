@@ -40,6 +40,7 @@ Dokumentasikan langkah-langkah penyelesaian challenge dalam write-up.
 
 ## Challenge Undo  
 ### Step 1  
+<img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/menu%20undo.png">  
 <img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/step%201.png">  
 
 - Tekan tombol Launch Instance untuk memulai.  
@@ -48,4 +49,14 @@ Dokumentasikan langkah-langkah penyelesaian challenge dalam write-up.
 Untuk mendecode string yang didecode dengan base64, gunakan command base64 -d
 
 ### Step 2  
+<img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/step%202.png">  
+
+Untuk reverse sebuah text, gunakan command rev  
+
+### Step 3
 <img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/step%203.png">  
+Untuk mengganti seluruh dash menjadi underscore pada text, gunakan command  tr "-" "_" 
+
+### Step 4  
+<img src="https://github.com/Devananda2312/Week0-CyberSec-TecArt/blob/master/step%204.png">  
+
